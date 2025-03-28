@@ -1,7 +1,7 @@
 import './Profile.css'
 const Profile = () => {
     return (
-        <div className="profile-container">
+        <div className="profile-container" id="project">
             <div className="profile-left">
                 <img src="imgNoFondo.png" alt="profile" />
             </div>

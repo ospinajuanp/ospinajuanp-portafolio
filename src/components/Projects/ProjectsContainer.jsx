@@ -8,7 +8,7 @@ import Project from "./Project";
 
 const ProjectsContainer = () => {
     return (
-        <div className="projects-container">
+        <div className="projects-container" id="projects">
             <h2 className="projects-title">Projects</h2>
             <div className="projects-lists">
                 <Project img={"npm.png"} name={"ospinajuanp-reset-css"} description={"ospinajuanp-reset-css standardizes styles by removing browser inconsistencies."} tools={[<RiHtml5Fill/>,<FaJsSquare/>,<FaNodeJs/>]} url={"https://github.com/ospinajuanp/ospinajuanp-reset-css"} link={"https://www.npmjs.com/package/ospinajuanp-reset-css"}/>

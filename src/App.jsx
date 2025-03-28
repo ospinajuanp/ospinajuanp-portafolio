@@ -11,22 +11,13 @@ function App() {
   
 
   return (
-    <div className="App">
+    <div className="App" id="home">
       <Header/>
       <Profile/>
       <SkillsContainer/>
       <ProjectsContainer/>
       <Contact/>
       <Footer/>
-      
-      {/* <div className="container-cards">
-        <div className="card color-uno">a</div>
-        <div className="card color-dos">b</div>
-        <div className="card color-tres">c</div>
-        <div className="card color-cuatro">d</div>
-        <div className="card color-cinco">e</div>
-        <div className="card color-seis">f</div>
-      </div> */}
     </div>
   )
 }

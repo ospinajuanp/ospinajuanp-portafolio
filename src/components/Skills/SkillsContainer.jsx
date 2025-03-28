@@ -12,7 +12,7 @@ import "./SkillsContainer.css"
 
 const SkillsContainer = () => {
     return (
-        <div className="skills-container">
+        <div className="skills-container" id="skills">
             <h2 className="skills-title">Skills</h2>
             <div className="skills-list">
                 <Skill name={"HTML"} icon={<RiHtml5Fill/>}/>

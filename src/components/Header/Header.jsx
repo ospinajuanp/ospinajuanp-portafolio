@@ -34,10 +34,10 @@ const Header = () => {
                 </div>
             </div>
             <ul className="menu">
-                <li className="element"><IoHome />Home</li>
-                <li className="element"><FaCode />Skills</li>
-                <li className="element"><FaLaptopCode />Projects</li>
-                <li className="element"><MdEmail />Contact</li>
+                <li ><a className="element" href="#home"><IoHome />Home</a></li>
+                <li><a className="element" href="#skills"><FaCode />Skills</a></li>
+                <li><a className="element" href="#projects"><FaLaptopCode />Projects</a></li>
+                <li><a className="element" href="#contact"><MdEmail />Contact</a></li>
             </ul>
         </div>
     );
