@@ -3,6 +3,7 @@ import Profile from './components/Profile/Profile'
 import SkillsContainer from './components/Skills/SkillsContainer'
 import ProjectsContainer from './components/Projects/ProjectsContainer'
 import Contact from './components/Contact/Contact'
+import Footer from './components/Footer/Footer'
 import './resetStyle.css'
 import './App.css'
 
@@ -16,6 +17,7 @@ function App() {
       <SkillsContainer/>
       <ProjectsContainer/>
       <Contact/>
+      <Footer/>
       
       {/* <div className="container-cards">
         <div className="card color-uno">a</div>
