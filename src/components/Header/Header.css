@@ -1,0 +1,93 @@
+.header-container{
+    min-width: 340px;
+    padding: 1rem;
+    border-bottom: var(--size-border) solid var(--color-tertiary);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name, .menu-icon{
+    font-weight: bold;
+    font-size: 1.5rem;
+    /* text-transform: uppercase; */
+
+}
+
+.name::after{
+    content: ".";
+    color: var(--color-accent);
+}
+.menu{
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    top: 72px;
+    left: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: var(--color-background);
+    transform: rotateX(-90deg);
+    transform-origin: top;
+    transition: all 0.5s ease-in-out;
+    z-index: 1;
+}
+.menu.open {
+    max-height: calc(100vh - 72px); /* ajusta según tu contenido */
+    opacity: 1;
+    transform: rotateX(0deg);
+    transition: all 0.5s ease-in-out;
+}
+.element{
+    font-weight: bold;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.element:hover{
+    color: var(--color-accent);
+}
+.nameDesktop{
+    display: none;
+}
+
+@media screen and (min-width: 610px) {    
+    .name::before{
+        content: "dev.";
+        color: var(--color-accent);
+    }
+    .name::after{
+        content: "";
+    }
+    .menu-icon{
+        display: none;
+    }
+    
+    .menu{
+        height: auto;
+        top: 80px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        /* background-color: var(--color-background); */
+        transform: rotateX(0deg);
+        transform: translateX(100);
+        transform-origin: top;
+        transition: all 0.5s ease-in-out;
+        z-index: 1;
+    }
+}

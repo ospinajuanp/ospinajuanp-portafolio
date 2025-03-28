@@ -1,0 +1,124 @@
+.profile-container{    
+    width: 100%;
+    min-width: 340px;
+    height: calc(100vh - 71px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: var(--size-border) solid var(--color-tertiary);
+    margin: 0 auto;
+}
+.profile-left{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid var(--color-text);
+}
+.profile-left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.profile-right{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.greeting{
+    color: var(--color-accent);
+    font-size: 1rem;
+    height: auto;
+}
+.nameProfile{
+    font-size: 1.8rem;
+    font-weight: bold;
+    height: auto;
+    display: flex;
+    align-items: center;
+
+}
+.job{
+    font-size: 1rem;
+    color: var(--color-text);
+    filter: brightness(.6);
+    height: auto;
+}
+.buttons{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.button{
+    padding: .5rem 1rem;
+    border: var(--size-border) solid var(--color-tertiary);
+    border-radius: 1rem;
+    color: var(--color-text);
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-work{
+    background-color: var(--color-accent);
+}
+
+.button:hover{
+    background-color: var(--color-accent);
+    border-color: var(--color-text);
+    filter: brightness(1.2);
+}
+
+@media screen and (min-width: 550px) {
+    .profile-container{    
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .profile-container{ 
+        max-width: 100%;
+    }
+    .profile-left{
+        border: var(--size-border) solid var(--color-text);
+        border-radius: 0;
+        width: 200px;
+        height: 240px;
+    }
+    .profile-right  {
+        height: 500px;
+    }
+    .greeting,.job{
+        font-size: 2rem;
+        height: 2rem;
+    }
+    .nameProfile{
+        font-size: 3.2rem;
+        height: 3.2rem;
+    }
+    
+
+}
+
+@media screen and (min-width: 1500px) {
+    .profile-container{  
+        justify-content: start;
+        gap: 10rem;
+        padding: 15%;
+    }
+
+    .profile-left{
+        /* border: none; */
+        border-radius: 0;
+        width: 400px;
+        height: 600px;
+    }
+    .button{
+        font-size: 1.8rem;
+    }
+}

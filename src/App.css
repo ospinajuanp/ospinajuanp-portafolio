@@ -1,0 +1,39 @@
+/* .container-cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+} */
+
+/* .card{
+  width: 400px;
+  height: 400px;
+  margin: 10px;
+  border: 4px solid red;
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.color-uno{
+  background-color: var(--color-primary);
+}
+.color-dos{
+  background-color: var(--color-secondary);
+}
+.color-tres{
+  background-color: var(--color-tertiary);
+}
+.color-cuatro{
+  background-color: var(--color-accent);
+}
+.color-cinco{
+  background-color: var(--color-background);
+}
+.color-seis{
+  background-color: var(--color-text);
+} */
+
+
+

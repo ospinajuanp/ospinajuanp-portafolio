@@ -1,0 +1,17 @@
+.skills-container{
+    min-width: 348px;
+    padding: 1rem;
+    background-color: var(--color-tertiary);
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.skills-title{
+    margin: 1rem 0;
+    padding-bottom: 1rem;
+}
+
+.skills-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
