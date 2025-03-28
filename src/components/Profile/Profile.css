@@ -9,6 +9,7 @@
     padding: 1rem;
     border-bottom: var(--size-border) solid var(--color-tertiary);
     margin: 0 auto;
+    gap: 2rem;
 }
 .profile-left{
     width: 120px;
@@ -16,6 +17,7 @@
     border-radius: 50%;
     overflow: hidden;
     border: 1px solid var(--color-text);
+    background-color: var(--color-accent);
 }
 .profile-left img{
     width: 100%;
@@ -75,7 +77,7 @@
 @media screen and (min-width: 550px) {
     .profile-container{    
         flex-direction: row;
-        justify-content: space-evenly;
+        /* justify-content: space-between; */
         align-items: center;
     }
 }
