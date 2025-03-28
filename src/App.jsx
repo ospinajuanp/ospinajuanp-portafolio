@@ -1,6 +1,7 @@
 import Header from './components/Header/Header'
 import Profile from './components/Profile/Profile'
 import SkillsContainer from './components/Skills/SkillsContainer'
+import ProjectsContainer from './components/Projects/ProjectsContainer'
 import './resetStyle.css'
 import './App.css'
 
@@ -12,6 +13,7 @@ function App() {
       <Header/>
       <Profile/>
       <SkillsContainer/>
+      <ProjectsContainer/>
       
       {/* <div className="container-cards">
         <div className="card color-uno">a</div>
