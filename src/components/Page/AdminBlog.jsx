@@ -14,6 +14,7 @@ const AdminBlog = () => {
     return (
         <div>
             <h1>Admin Blog</h1>
+            <p>This page is under construction</p>
             <MarkdownCreate onMarkdownChange={handleMarkdownChange}/>
             <MarkdownViewer content={markdownContent}/>
         </div>

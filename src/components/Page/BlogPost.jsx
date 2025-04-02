@@ -4,6 +4,7 @@ const BlogPost = () => {
     return (
         <div>
             <h1>Blog</h1>
+            <p>This page is under construction</p>
             <Link to="/adminblogpost">Go AdminBlog</Link>
         </div>
     );
