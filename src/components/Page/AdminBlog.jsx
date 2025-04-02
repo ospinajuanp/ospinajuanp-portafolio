@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import {  useState } from 'react';
 import MarkdownViewer from '../MarkdownViewer/MarkdownViewer';
 import MarkdownCreate from '../MarkdownCreate/MarkdownCreate';
 import './AdminBlog.css'
@@ -13,7 +13,7 @@ const AdminBlog = () => {
 
     return (
         <div>
-            <h1>Mi Nueva Página</h1>
+            <h1>Admin Blog</h1>
             <MarkdownCreate onMarkdownChange={handleMarkdownChange}/>
             <MarkdownViewer content={markdownContent}/>
         </div>
