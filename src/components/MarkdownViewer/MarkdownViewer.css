@@ -1,4 +1,8 @@
 .markdown{
-    border: 1px solid white;
-    padding: 5%;
+    width: 100%;
+    min-height: 50vh;
+    height: auto;
+    border-radius: .4rem;
+    padding: 1rem;
+    border: var(--size-border) solid var(--color-text);
 }
