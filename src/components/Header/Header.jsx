@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom";
 import { IoHome } from "react-icons/io5";
+import { FaBlogger } from "react-icons/fa";
 import { FaCode } from "react-icons/fa";
 import { FaLaptopCode } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
@@ -34,6 +36,7 @@ const Header = () => {
                 </div>
             </div>
             <ul className="menu">
+                {/* <li><Link className="element" to="/blogpost"> <FaBlogger />Blog</Link></li> */ /* TODO: BlogPost*/ } 
                 <li ><a className="element" href="#home"><IoHome />Home</a></li>
                 <li><a className="element" href="#skills"><FaCode />Skills</a></li>
                 <li><a className="element" href="#projects"><FaLaptopCode />Projects</a></li>

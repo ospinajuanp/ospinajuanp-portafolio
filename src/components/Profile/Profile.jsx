@@ -14,8 +14,8 @@ const Profile = () => {
                     <h2>Junior Frontend Developer </h2>
                 </div>
                 <div className="buttons">
-                    <button className='button btn-work'>My Work</button>
-                    <button className='button btn-contact'>Contact</button>
+                    <a className='button btn-work' href="#projects">My Work</a>
+                    <a className='button btn-contact' href="#contact">Contact</a>
                 </div>
             </div>
         </div>
