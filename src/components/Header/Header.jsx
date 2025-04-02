@@ -36,7 +36,8 @@ const Header = () => {
                 </div>
             </div>
             <ul className="menu">
-                {/* <li><Link className="element" to="/blogpost"> <FaBlogger />Blog</Link></li> */ /* TODO: BlogPost*/ } 
+                {/* TODO: BlogPost*/ }
+                <li><Link className="element" to="/blogpost"> <FaBlogger />Blog</Link></li> 
                 <li ><a className="element" href="#home"><IoHome />Home</a></li>
                 <li><a className="element" href="#skills"><FaCode />Skills</a></li>
                 <li><a className="element" href="#projects"><FaLaptopCode />Projects</a></li>
