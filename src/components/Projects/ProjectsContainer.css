@@ -1,6 +1,6 @@
 .projects-container{
     min-width: 348px;
-    padding: 1rem 15%;
+    padding: 1rem 5%;
     font-size: 1.8rem;
     font-weight: bold;
     margin-bottom: 4rem;
@@ -21,20 +21,17 @@
 
 @media screen and (min-width: 750px) {
     .projects-container{
-        padding: 1rem ;
-    }
-    .projects-container{
         padding: 1rem 10% 0;
     }
 }
 @media screen and (min-width: 900px) {
     .projects-container{
-        padding: 1rem 20% 0;
+        padding: 1rem 15% 0;
     }
 }
 
 @media screen and (min-width: 1500px) {
     .projects-container{
-        padding: 1rem 15% 0;
+        padding: 1rem 5% 0;
     }
 }

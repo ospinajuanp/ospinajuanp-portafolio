@@ -32,17 +32,7 @@ const MarkdownCreate = ({onMarkdownChange}) => {
                 value={value}
                 onChange={handleChange}
                 placeholder="Escribe algo..."
-                style={{
-                    width: "100%",
-                    minHeight: "50vh",
-                    overflow: "hidden",
-                    resize: "none",
-                    borderRadius: ".4rem",
-                    padding: "1rem",
-                    border: "1px solid #ccc",
-                    fontSize: "1rem",
-                    lineHeight: "1.5",
-                    }}            
+                className="markdown-textArea"
             />
             <button className="button btn-work" onClick={clear}>
                 Limpiar

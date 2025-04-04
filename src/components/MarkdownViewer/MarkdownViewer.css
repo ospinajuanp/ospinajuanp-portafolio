@@ -1,8 +1,56 @@
 .markdown{
-    width: 100%;
+    width: calc(100% - 2rem);
     min-height: 50vh;
     height: auto;
     border-radius: .4rem;
-    padding: 1rem;
+    padding: 1rem 1rem 0rem 1rem;
+    margin: 1rem;
     border: var(--size-border) solid var(--color-text);
+    
+}
+
+.md-title{
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-bottom: var(--size-border) solid var(--color-text);
+}
+.md-subtitle{
+    font-size: 1.5rem;
+    text-align: start;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-bottom: var(--size-border) solid var(--color-text);
+}
+.md-paragraph{}
+.md-list{}
+.md-ordered-list{}
+.md-list-item{
+    margin-left: 2rem;
+}
+.md-inline-code{}
+.md-code-block{}
+.md-link{
+    text-decoration: none;
+    color: var(--color-text);
+    font-weight: bold;
+    cursor: pointer;
+    filter: brightness(1.2);
+    padding: .2rem;
+}
+.md-link:hover{
+    border-radius: .4rem;
+    background: var(--color-text);
+    color: var(--color-accent);
+}
+.md-link:visited{
+    filter: brightness(.8);
+}
+.md-image{}
+
+.markdown strong{
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: var(--color-accent);
 }

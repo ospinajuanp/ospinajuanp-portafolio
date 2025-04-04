@@ -1,4 +1,5 @@
 .header-container{
+    max-width: 850px;
     min-width: 340px;
     padding: 1rem;
     border-bottom: var(--size-border) solid var(--color-tertiary);
@@ -6,7 +7,7 @@
 
 .header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     /* gap: 1rem; */
 }
@@ -23,15 +24,18 @@
     color: var(--color-accent);
 }
 .menu{
-    width: 100%;
+    
+    width: 95%;
+    max-width: 850px;
     height: 100%;
     padding: 1rem;
     top: 72px;
-    left: 0;
     position: absolute;
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
+    justify-content: space-between;
+    /* align-items: start; */
     gap: 1rem;
     font-weight: bold;
     text-transform: uppercase;
@@ -75,13 +79,13 @@
     }
     
     .menu{
+        width: 95%;
         height: auto;
         top: 80px;
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: center;
-        gap: 1rem;
+        justify-content: space-between;
         font-weight: bold;
         text-transform: uppercase;
         /* background-color: var(--color-background); */
