@@ -28,6 +28,7 @@
   --color-text: #1A1838;
   --color-background: #F9FAFB;
 
+  --typography-primary: "Montserrat", sans-serif;
   --size-border: .2rem;
 }
 
@@ -119,7 +120,7 @@ blockquote:before, blockquote:after, q:before, q:after {
 
 /* We level typography and form placement problems. */
 form, input, textarea, select, button, label {
-  font-family: inherit;
+  font-family: var(--typography-primary);
   font-size: inherit;
   hyphens: auto;
   background-color: transparent;
