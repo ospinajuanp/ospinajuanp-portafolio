@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     min-width: 348px;
-    padding: 1rem 15% 2rem;
+    padding: 1rem 5% 2rem;
     background-color: var(--color-tertiary);
     font-size: 1.8rem;
     font-weight: bold;
@@ -14,8 +14,9 @@
     text-align: center;
 }
 .contact-email{
+    width: 100%;
+    min-width: 250px;
     cursor: pointer;
-    width: 26rem;
     padding: 1rem;
     display: flex;
     flex-direction: row;
@@ -25,6 +26,12 @@
     margin-bottom: 1rem;
     border: var(--size-border) solid var(--color-secondary);
     border-radius: 1rem;
+    font-size: 1.3rem;
+}
+.btn-touch:hover {
+    background-color: var(--color-tertiary);
+    border-color: var(--color-secondary);
+    
 }
 .contact-email svg{
     width: 2rem;
@@ -41,19 +48,11 @@
     cursor: pointer;
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 450px) {
     .contact-container{
         padding: 1rem 10% 2rem;
     }
-}
-@media screen and (min-width: 900px) {
-    .contact-container{
-        padding: 1rem 20% 2rem;
-    }
-}
-
-@media screen and (min-width: 1500px) {
-    .contact-container{
-        padding: 1rem 15% 2rem;
+    .contact-email{
+        width: 27rem;
     }
 }

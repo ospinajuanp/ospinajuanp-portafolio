@@ -7,15 +7,19 @@ import "./Contact.css"
 const Contact = () => {
 
     const handleClick = () => {
+        document.getElementById('email').textContent = 'Copied!'
         navigator.clipboard.writeText('juanpo996@gmail.com')
+        setTimeout(() => {
+            document.getElementById('email').textContent = 'juanpo996@gmail.com'
+        },3000)
     }
 
     return (
         <div className="contact-container" id="contact">
             <h2 className="contact-title">Get in touch</h2>
-            <div className="contact-email" onClick={handleClick}>
+            <div className="contact-email button btn-touch" onClick={handleClick}>
                 <MdEmail />
-                <div> juanpo996@gmail.com</div>
+                <div id="email"> juanpo996@gmail.com</div>
             </div>
             <div className="contact-icons" >
                 <a className="contact-icon" target="_blank" href="https://github.com/ospinajuanp">
